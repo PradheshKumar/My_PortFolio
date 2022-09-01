@@ -382,6 +382,15 @@ section {
   position: relative;
   color: #45505b;
 }
+.section-title h5 {
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  color: #45505b;
+}
 
 .section-title h2::before {
   content: "";
@@ -1314,4 +1323,21 @@ section {
 .card:hover .card__content {
   opacity: 1;
   transition-delay: 0.75s;
+}
+
+.skillCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: black; */
+}
+.skillCardCont {
+  margin: 0.5rem;
+  /* background-color: black; */
+  color: white;
+}
+.skillCardCont img {
+  width: 5rem;
+  height: auto;
 }
